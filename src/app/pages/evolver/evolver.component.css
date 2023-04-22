@@ -1,0 +1,29 @@
+html {
+  /** reset para rems - 62.5% = 10px de 16px**/
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+::ng-deep .mat-slider-track-wrapper {
+    background-color: #ccc;
+    /* change track color */
+}
+
+::ng-deep .mat-slider-thumb {
+  background-color: #f44336;
+    /* change thumb color */
+}
+
+.mat-slider{
+  margin-right:30px;
+}
+
+.btn-save {
+  color: #ffffff;
+  background-color: #f38e0b;
+  border-color: #f38e0b;
+}
+
+.w-xs{
+  width: 3rem;
+}

@@ -1,0 +1,32 @@
+html {
+  /** reset para rems - 62.5% = 10px de 16px**/
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.create-task{
+  margin: 15px;
+}
+
+/* .mystyle {
+  width: 100%;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+} */
+
+.container-task-toggle-style{
+  border-color: #8c8c85;
+  border-width: 10px;
+  background-color: aquamarine;
+}
+
+.task-title-toggle-style{
+  background-color: #8c8c85;
+  color: #fff;
+}
+
+.w-xs {
+  width: 3rem;
+}

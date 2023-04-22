@@ -1,0 +1,32 @@
+.container{
+  margin-top: 10px;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
+
+.smaller-form-field {
+  /* set font size */
+  font-size: 14px;
+  /* set height */
+  height: 80px;
+  /* set padding */
+  padding: 4px 8px;
+}
+
+input, select{
+  padding: 2px;
+  margin: 5px;
+  margin-right: 8px;
+}
+
+.w-md{
+  width: 6rem;
+}
+
+.w-xs {
+  width: 3rem;
+}
+
+

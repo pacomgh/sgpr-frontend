@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+.btn {
+  margin: 5px;
+}
+
+.btn-save {
+  color: #ffffff;
+  background-color: #f38e0b;
+  border-color: #f38e0b;
+}
+
+.btn-search {
+  color: #ffffff;
+  background-color: #0b2af3;
+  border-color: #0b2af3;
+}
+
+.fast {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: black;
+}
+
+
+/* Tabs styles */
+.container {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.smaller-form-field {
+  /* set font size */
+  font-size: 14px;
+  /* set height */
+  height: 80px;
+  /* set padding */
+  padding: 4px 8px;
+}
+
+.fielddata{
+  padding: 2px;
+  margin: 5px;
+  margin-right: 8px;
+  background-color: #ffffffa0;
+  border: 1 solid #ffffffa0;
+  border-radius: 5px;
+}

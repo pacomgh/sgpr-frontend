@@ -1,0 +1,66 @@
+<section>
+  <div class="container col-md-12">
+    <div class="row">
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="portfolios">Portfolios</label>
+          <select id="portfolios" class="fielddata" name="portfolios">
+            <option value="" disabled select>Portfolios</option>
+            <option value="value1">Portfolios 1</option>
+            <option value="value2" >Portfolios 2</option>
+            <option value="value3">Portfolios 3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="signal-distance">Signal distance</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="nsignal-distance" name="nsignal-distance" min="0" max="100" step="1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="stop-loss">Stop loss</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="stop-loss" name="stop-loss" min="0" max="100" step="1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12">
+    <button type="button" class="btn btn-sm btn-search col-md-2">Load portfolio</button>
+    <button type="button" class="btn btn-sm btn-danger col-md-2">Reset all changes</button>
+    <button type="button" class="btn btn-sm btn-success col-md-2">Save all changes</button>
+  </div>
+</section>
+
+<!-- <div>
+  <section>
+    <div class="container col-md-12">
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Portfolios</mat-label>
+        <input matInput placeholder="Portfolios">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Signal distance</mat-label>
+        <input matInput placeholder="Signal distance">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Stop loss</mat-label>
+        <input matInput placeholder="Stop loss">
+      </mat-form-field>
+      <button type="button" class="btn btn-search col-md-2">Load portfolio</button>
+    </div>
+    <div class="col-md-12">
+      <button type="button" class="btn btn-danger col-md-2">Reset all changes</button>
+      <button type="button" class="btn btn-success col-md-2">Save all changes</button>
+    </div>
+  </section>
+</div> -->

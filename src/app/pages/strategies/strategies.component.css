@@ -1,0 +1,15 @@
+html {
+  /** reset para rems - 62.5% = 10px de 16px**/
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.btn-search {
+  color: #ffffff;
+  background-color: #0b2af3;
+  border-color: #0b2af3;
+}
+
+.w-xs {
+  width: 3rem;
+}

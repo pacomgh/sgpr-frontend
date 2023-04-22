@@ -1,0 +1,8 @@
+<!-- <div> -->
+  <mat-tab-group >
+  <mat-tab *ngFor="let label of tabLabels; let i = index;">
+    <ng-template mat-tab-label>{{ label }}</ng-template>
+    <ng-template [ngComponentOutlet]="tabComponents[i]"></ng-template>
+  </mat-tab>
+</mat-tab-group>
+<!-- </div> -->

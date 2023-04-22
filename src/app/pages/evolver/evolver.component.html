@@ -1,0 +1,488 @@
+<section>
+  <div class="container col-md-12">
+    <div class="row w-90">
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="start-date">Start date</label>
+          <input class="fielddata" type="date" id="start-date"
+            name="start-date" value="2023-01-03"
+            min="2023-01-03" max="2024-12-31">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="end-date">End date</label>
+          <input class="fielddata" type="date" id="end-date"
+            name="start-date" value="2023-01-03"
+            min="2023-01-03" max="2024-12-31">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="symbol">Symbol</label>
+          <select class="fielddata" name="symbol">
+            <option value="" disabled select>Select symbol</option>
+            <option value="value1">Symbol 1</option>
+            <option value="value2">Symbol 2</option>
+            <option value="value3">Symbol 3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="exchange">Exchange</label>
+          <select class="fielddata" name="exchange">
+            <option value="" disabled select>Select exchange</option>
+            <option value="value1">exchange 1</option>
+            <option value="value2" >exchange 2</option>
+            <option value="value3">exchange 3</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container col-md-12">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="timeframe">Timeframe</label>
+          <select class="fielddata" name="timeframe">
+            <option value="" disabled select>Select timeframe</option>
+            <option value="value1">Timeframe 1</option>
+            <option value="value2">Timeframe 2</option>
+            <option value="value3">Timeframe 3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="blackbox">Select a blackbox</label>
+          <select class="fielddata" name="blackbox">
+            <option value="" disabled select>Select a blackbox</option>
+            <option value="value1">Blackbox 1</option>
+            <option value="value2">Blackbox 2</option>
+            <option value="value3">Blackbox 3</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <input
+            type="range" name="rangeValue" min="0" max="100" value="100"
+            oninput="rangeValue.innerText = this.value" class="fielddata">
+            <label for="rangeValue" id="rangeValue">100</label>
+        </div>
+      </div>
+      <!-- <p id="rangeValue">100</p> -->
+    </div>
+  </div>
+  <div class="container col-md-12">
+    <button type="button" class="btn btn-sm btn-success col-md-1">Start</button>
+
+    <label for="index-program">Enter index program</label>
+    <input
+      class="fielddata w-xs" type="number" id="index-program" placeholder="0"
+      name="index-program" min="0" max="100">
+
+    <button type="button" class="btn btn-sm btn-primary col-md-2">Show table</button>
+    <button type="button" class="btn btn-sm btn-info col-md-2">Show program</button>
+  </div>
+
+  <div class="container col-md-12">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="program-name">Program name:</label>
+          <input class="fielddata" type="text" placeholder="Default program" id="program-name">
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-sm btn-info btn-save col-md-2">Save program</button>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container col-md-12">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="initial-deep">Initial deepth</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="initial-deep" name="initial-deep" min="0" max="100">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="maximun-deepth">Maximun deepth</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="maximun-deepth" name="maximun-deepth" min="0" max="100">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="arity-probability-1">Arity 1 probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="arity-probability-1" name="arity-probability-1" min="0" max="100" step="0.1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="arity-probability-2">Arity 2 probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="arity-probability-2" name="arity-probability-2" min="0" max="100" step="0.1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-md-12">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="arity-probability-3">Arity 3 probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="arity-probability-3" name="arity-probability-3" min="0" max="100" step="0.1">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="crossover-probability">Crossover probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="crossover-probability" name="crossover-probability" min="0" max="100" step="0.1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="mutation-probability">Mutation probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="mutation-probability" name="mutation-probability" min="0" max="100" step="0.1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="number-best">Number of best</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="number-best" name="number-best" min="0" max="100" step="1">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-md-12">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="replication-mutation-probability">Replication mutation probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="replication-mutation-probability" name="replication-mutation-probability" min="0" max="100" step="0.1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="number-programs">Number of programs</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="number-programs" name="number-programs" min="0" max="100" step="1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="number-generations">Number of generations</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="number-generations" name="number-generations" min="0" max="100" step="1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="stop-times">Stop after times</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="stop-times" name="stop-times" min="0" max="100" step="1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="insert-mutation-probability">Insert node mutation probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="insert-mutation-probability" name="insert-mutation-probability" min="0" max="100" step="0.1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="delete-mutation-probability">Delete node mutation probability</label>
+          <input
+            class="fielddata w-xs" type="number" placeholder="0"
+            id="replication-mutation-probability" name="replication-mutation-probability" min="0" max="100" step="0.1">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="initial-balance">Initial balance</label>
+          <input class="fielddata w-xs" type="number" placeholder="0" id="initial-balance" name="initial-balance" min="0" max="100">
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container col-md-12">
+    <div class="row">
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="size-order">Size by order</label>
+          <input class="fielddata w-xs" type="number" placeholder="0" id="size-order" name="size-order" min="0" max="100">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="go-long">Go long</label>
+          <input class="fielddata w-xs" type="number" placeholder="0" id="go-long" name="go-long" min="0" max="100">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="go-short">Go short</label>
+          <input class="fielddata w-xs" type="number" placeholder="0" id="go-short" name="go-short" min="0" max="100">
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="row-sm float-right">
+          <label for="fee">Fee</label>
+          <input class="fielddata w-xs" type="number" placeholder="0" id="fee" name="fee" min="0" max="100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-md-12">
+    <div class="row">
+      <div class="row-sm float-right">
+        <label for="parameters-settings-name">Parameters settings name</label>
+        <input class="fielddata " type="text" placeholder="Default settings" id="parameters-settings-name">
+      </div>
+    <button type="button" class="btn btn-sm btn-info btn-save col-md-2">Save program</button>
+
+    <div class="row-sm float-right">
+      <label for="parameters-settings-available">Parametes settings available</label>
+      <select class="fielddata" name="parameters-settings-available">
+        <option value="" disabled select>Select exchange</option>
+        <option value="value1">Settings 1</option>
+        <option value="value2" >Settings 2</option>
+        <option value="value3">Settings 3</option>
+      </select>
+    </div>
+    </div>
+    <button type="button" class="btn btn-sm btn-info btn-info col-md-2">Load parameters</button>
+    <button type="button" class="btn btn-sm btn-info btn-danger col-md-2">Delete parameters</button>
+
+  </div>
+
+</section>
+
+
+<!-- <div>
+  <section>
+    <div class="container col-md-12">
+      <div class="form-group">
+        <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+          <mat-label>Start date</mat-label>
+           class="fielddata" matInput [matDatepicker]="picker">
+          <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+          <mat-label>End date</mat-label>
+          <input matInput [matDatepicker]="pickerEnd">
+          <mat-datepicker-toggle matIconSuffix [for]="pickerEnd"></mat-datepicker-toggle>
+          <mat-datepicker #pickerEnd></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+          <mat-label>Timeframe</mat-label>
+          <input matInput placeholder="Timeframe">
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Exchange</mat-label>
+        <input matInput placeholder="Exchange">
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+          <mat-label>Symbol</mat-label>
+          <input matInput placeholder="Symbol">
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+          <mat-label>Select a blackbox</mat-label>
+          <input matInput placeholder="Select a blackbox">
+        </mat-form-field>
+      </div> -->
+      <!-- cierre primer formgroup  -->
+    <!-- </div> -->
+    <!-- cierre container general  -->
+
+    <!-- <div class="form-group col-md-12">
+      <mat-slider min="1" max="100" step="1" tickInterval="1" [displayWith]="formatLabel" class="col-md-3 mat-slider">
+        <input matSliderThumb>
+      </mat-slider>
+      <button type="button" class="btn btn-success col-md-1">Start</button>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Enter index program</mat-label>
+        <input matInput placeholder="Enter index program">
+      </mat-form-field>
+      <button type="button" class="btn btn-primary col-md-1">Show table</button>
+      <button type="button" class="btn btn-info col-md-1">Load program</button>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Program name</mat-label>
+        <input matInput placeholder="Program name">
+      </mat-form-field>
+      <button type="button" class="btn btn-info btn-save col-md-1">Save program</button>
+    </div> -->
+    <!-- <div class="form-group col-md-12">
+      <button type="button" class="btn btn-success col-md-1">Start</button>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Enter index program</mat-label>
+        <input matInput placeholder="Enter index program">
+      </mat-form-field>
+      <button type="button" class="btn btn-primary col-md-1">Show table</button>
+      <button type="button" class="btn btn-info col-md-1">Load program</button>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Program name</mat-label>
+        <input matInput placeholder="Program name">
+      </mat-form-field>
+      <button type="button" class="btn btn-info btn-save col-md-1">Save program</button>
+    </div> -->
+    <!-- <div class="col-md-12">
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Initial deep</mat-label>
+        <input matInput placeholder="Initial deep">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Maximun depth</mat-label>
+        <input matInput placeholder="Maximun depth">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Go short</mat-label>
+        <input matInput placeholder="Go short">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Go long</mat-label>
+        <input matInput placeholder="Go long">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Fee</mat-label>
+        <input matInput placeholder="Fee">
+      </mat-form-field>
+    </div>
+
+    <div class="col-md-12">
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Arity probability 1</mat-label>
+        <input matInput placeholder="Arity probability 1">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Arity probability 2</mat-label>
+        <input matInput placeholder="Arity probability 2">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Arity probability 3</mat-label>
+        <input matInput placeholder="Arity probability 3">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Crossover probability</mat-label>
+        <input matInput placeholder="Crossover probability">
+      </mat-form-field>
+    </div>
+
+    <div class="col-md-12">
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Mutation probability</mat-label>
+        <input matInput placeholder="Mutation probability">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Insert node mutation probability</mat-label>
+        <input matInput placeholder="Insert node mutation probability">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Replication mutation probability</mat-label>
+        <input matInput placeholder="Replication mutation probability">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Delete mutation probability</mat-label>
+        <input matInput placeholder="Delete mutation probability">
+      </mat-form-field>
+    </div>
+
+    <div class="col-md-12">
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Number of programs</mat-label>
+        <input matInput placeholder="Number of programs">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Number of best</mat-label>
+        <input matInput placeholder="Number of best">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Number of generations</mat-label>
+        <input matInput placeholder="Number of generations">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Stop after times</mat-label>
+        <input matInput placeholder="Stop after times">
+      </mat-form-field>
+    </div>
+
+    <div class="col-md-12">
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Initial balance</mat-label>
+        <input matInput placeholder="Initial balance">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Size by order</mat-label>
+        <input matInput placeholder="Size by order">
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Parameter settings name</mat-label>
+        <input matInput placeholder="Parameter settings name">
+      </mat-form-field>
+      <button type="button" class="btn btn-info btn-save col-md-1">Save parameters</button>
+      <mat-form-field appearance="fill" class="col-md-2 smaller-form-field">
+        <mat-label>Parameters setting available</mat-label>
+        <input matInput placeholder="Random">
+      </mat-form-field>
+      <button type="button" class="btn btn-info col-md-1">Load parameters</button>
+      <button type="button" class="btn btn-danger col-md-1">Delete parameters</button>
+    </div>
+
+  </section>
+</div> -->

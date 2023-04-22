@@ -1,0 +1,39 @@
+html {
+  /** reset para rems - 62.5% = 10px de 16px**/
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.btn{
+  margin: 5px;
+}
+
+.btn-search {
+  color: #ffffff;
+  background-color: #0b2af3;
+  border-color: #0b2af3;
+}
+
+.btn-show {
+  color: #ffffff;
+  background-color: #0b83f3;
+  border-color: #0b83f3;
+}
+.btn-backtest {
+  color: #ffffff;
+  background-color: #4a4a49;
+  border-color: #000000;
+}
+.btn-save {
+  color: #ffffff;
+  background-color: #f38e0b;
+  border-color: #f38e0b;
+}
+
+.w-md {
+  width: 6rem;
+}
+
+.w-xs {
+  width: 3rem;
+}
